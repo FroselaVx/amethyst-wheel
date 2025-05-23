@@ -1,4 +1,5 @@
 import { Introduction } from "@/components";
+import BestSeller from "@/components/BestSeller";
 import NewCollection from "@/components/NewCollection";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Introduction />
       <NewCollection />
+      <BestSeller />
     </>
   );
 }
