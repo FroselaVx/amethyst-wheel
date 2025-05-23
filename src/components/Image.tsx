@@ -1,7 +1,6 @@
-interface IImage {
+interface IImage extends React.ImgHTMLAttributes<HTMLImageElement> {
   logo: string;
   fallback: string;
-  restProps?: any;
 }
 
 export default function Image(props: IImage) {
