@@ -7,12 +7,12 @@ export default function Introduction() {
     <div className="px-16">
       <div className="w-full flex flex-row justify-between items-center mb-[40px]">
         <div>
-          <h1
+          <div
             style={{ color: "#54297B", fontSize: "64px", textAlign: "left" }}
-            className="w-[309px] h-auto"
+            className="w-[309px] h-auto font-['Instrument_Serif']"
           >
             Roll with elegance. Ride with Amethyst.
-          </h1>
+          </div>
         </div>
 
         <Image logo={Logo} fallback="amethyst" />

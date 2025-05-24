@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Footer, Header } from "@/components";
 import Home from "@/screen/Home";
 import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
 
@@ -17,12 +17,13 @@ export default function Router() {
 
 function Layout() {
   return (
-    <div className="w-[1280px] h-screen container">
+    <div className="min-w-screen h-full container">
       <div className="sticky top-0 z-50 bg-white">
         <Header />
       </div>
 
       <Outlet />
+      <Footer />
     </div>
   );
 }

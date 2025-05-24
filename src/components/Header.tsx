@@ -17,9 +17,9 @@ export default function Header() {
         </Link>
         <div className="ml-auto flex gap-2 ">
           <Button
-            variant="outline"
+            variant="white"
             className="justify-self-end px-2 py-1 text-xs w-[140px] h-[45px]"
-            style={{ backgroundColor: "white", borderColor: "black" }}
+            // style={{ backgroundColor: "white", borderColor: "black" }}
           >
             Login
           </Button>
